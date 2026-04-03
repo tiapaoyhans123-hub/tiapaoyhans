@@ -3,6 +3,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: 'export', // 👈 ESTO ES CLAVE
   images: {
     unoptimized: true,
   },
