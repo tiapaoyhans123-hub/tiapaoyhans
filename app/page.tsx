@@ -83,6 +83,16 @@ export default function Page() {
           <p className="text-gray-400">
             📍 Reverendo Aldo Giachi 1207, Maipú
           </p>
+          <div className="mt-10 rounded-2xl overflow-hidden border border-yellow-500/20 shadow-lg">
+  <iframe
+    src="https://www.google.com/maps?q=Reverendo+Aldo+Giachi+1207,+Maipú,+Chile&output=embed"
+    width="100%"
+    height="350"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
 
           <p className="mt-2 text-gray-300">
             📞 +56 9 8904 3383
