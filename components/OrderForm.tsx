@@ -106,7 +106,7 @@ toast.success(data.message);
   min={0}
   value={selected[it.id] ?? 0}
   onChange={(e) => handleQtyChange(it.id, Number(e.target.value))}
-  className="w-16 rounded-lg bg-black border border-yellow-500/20 text-yellow-400 font-semibold text-center px-2 py-1 shadow-inner focus:ring-2 focus:ring-yellow-400"
+  className="w-16 rounded-lg bg-black border border-yellow-500/20 text-red-500 font-semibold text-center px-2 py-1 shadow-inner focus:ring-2 focus:ring-yellow-400"
 />
             </li>
           ))}

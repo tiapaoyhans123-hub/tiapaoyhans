@@ -16,9 +16,18 @@ export default function Page() {
 
         {/* 💎 MENÚ */}
         <section id="catalogo">
-          <h2 className="text-4xl md:text-5xl font-serif mb-12 text-center text-yellow-400 tracking-wide">
-            Nuestro Menú
-          </h2>
+         <h2 className="
+  text-4xl md:text-5xl 
+  font-serif 
+  mb-12 
+  text-center 
+  text-red-500 
+  tracking-wide
+  drop-shadow-[0_0_6px_rgba(255,0,0,0.7)]
+  [text-shadow:0_0_10px_rgba(255,0,0,0.9),0_0_20px_rgba(255,0,0,0.6)]
+">
+  Nuestro Menú
+</h2>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
             {menuItems.map((item) => (
@@ -35,7 +44,7 @@ export default function Page() {
           {/* Glow efecto */}
           <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/10 via-transparent to-yellow-500/10" />
 
-          <h2 className="relative text-4xl md:text-5xl font-serif text-yellow-400 mb-6">
+          <h2 className="relative text-4xl md:text-5xl font-serif text-red-500 mb-6">
             Haz tu pedido
           </h2>
 
@@ -55,7 +64,7 @@ export default function Page() {
 
             <a
               href="/order"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition"
+              className="bg-red-600 hover:bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition"
             >
               Formulario de Pedido
             </a>
@@ -67,7 +76,7 @@ export default function Page() {
           id="contacto"
           className="bg-gradient-to-b from-black to-neutral-900 border border-yellow-500/20 rounded-3xl p-12 text-center shadow-xl"
         >
-          <h2 className="text-3xl md:text-4xl font-serif text-yellow-400 mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif text-red-500 mb-6">
             Contacto
           </h2>
 
@@ -94,7 +103,7 @@ export default function Page() {
 
             <a
               href="mailto:contacto@tiapaoyhans.cl"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded-full shadow-md hover:scale-105 transition"
+              className="bg-red-600 hover:bg-yellow-500 text-black px-6 py-2 rounded-full shadow-md hover:scale-105 transition"
             >
               Email
             </a>

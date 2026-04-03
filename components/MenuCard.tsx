@@ -25,7 +25,7 @@ export default function MenuCard({ item }: Props) {
       {/* Contenido */}
       <div className="p-5 space-y-3">
 
-        <h3 className="text-xl font-serif text-yellow-400 tracking-wide">
+        <h3 className="text-xl font-serif text-red-500 tracking-wide">
           {item.name}
         </h3>
 
@@ -42,7 +42,7 @@ export default function MenuCard({ item }: Props) {
           <a
             href={`https://wa.me/56989043383?text=Hola quiero pedir ${item.name}`}
             target="_blank"
-            className="bg-yellow-500 text-black px-4 py-1 rounded-full text-sm hover:bg-yellow-400 transition"
+            className="bg-red-600 text-black px-4 py-1 rounded-full text-sm hover:bg-red-600 transition"
           >
             Pedir
           </a>

@@ -5,11 +5,11 @@
 :root {
   /* FONDO NEGRO PROFUNDO */
   --background: 220 20% 6%;
-  --foreground: 45 100% 92%;
+  --foreground: 45 100% 95%;
 
   /* TARJETAS */
   --card: 220 20% 10%;
-  --card-foreground: 45 100% 92%;
+  --card-foreground: 45 100% 95%;
 
   /* DORADO PRINCIPAL */
   --primary: 45 90% 55%;
@@ -22,6 +22,10 @@
   /* ACENTO LUJOSO */
   --accent: 38 95% 65%;
   --accent-foreground: 220 20% 6%;
+
+    /* 🔴 ROJO PREMIUM (NUEVO) */
+  --danger: 0 75% 55%;
+  --danger-foreground: 0 0% 100%;
 
   /* TEXTOS SUAVES */
   --muted: 220 15% 18%;
